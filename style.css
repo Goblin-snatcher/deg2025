@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   height: 100%;
-       /* helsvart bakom allt */
+   background: #000;; /* helsvart bakom allt */
 }
 
 /* Om du öppnar overlay: lås scroll (hindrar “vit stretch”-effekt) */
   body.overlay-open {
     overflow: hidden;
-      background: #000;;
+      
   }
 
     
