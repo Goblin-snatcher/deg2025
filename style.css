@@ -95,7 +95,7 @@
   width:100%;
   height:100%;
   object-fit: contain;   /* passa in i kortets box */
-  transform: scale(1.20); /* liten inzoomning */
+  transform: scale(1.13); /* liten inzoomning */
   background:#000;
 }
 
