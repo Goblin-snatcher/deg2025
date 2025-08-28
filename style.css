@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #40B7D1;;                /* helsvart bakom allt */
+                 /* helsvart bakom allt */
 }
 
 /* Om du öppnar overlay: lås scroll (hindrar “vit stretch”-effekt) */
