@@ -53,10 +53,7 @@
 /* --- Overlay (svart bakgrund) --- */
 #overlay {
   position: fixed;
-  top: calc(-1 * env(safe-area-inset-top));
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: #000;
   z-index: 2000;
   display: none;
