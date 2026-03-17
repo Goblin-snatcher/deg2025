@@ -29,7 +29,7 @@
         padding: 12px 20px;
         font-size: 1.2rem;
         z-index: 1000;
-        background: #40B7D1; 
+        background: #000; 
       
         /* centrera motivet */
         background: url('kortknapp.png') center/contain no-repeat;
@@ -56,8 +56,8 @@
   inset: 0;
   background: #000;
   z-index: 2000;
+  display: none;
   padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
 #overlay.show { display:grid; place-items:center; }
