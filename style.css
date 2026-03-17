@@ -59,6 +59,7 @@
     height: 100vh;
   background: #000;
   z-index: 9999;
+    display: none;
 }
 
 #overlay.show { display:grid; place-items:center; }
