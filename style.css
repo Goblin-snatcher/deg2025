@@ -3,6 +3,9 @@
   padding: 0;
   height: 100%;
    background: #000;; /* helsvart bakom allt */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #fff; /* viktigt så du inte ser svart */
 }
 
 /* Om du öppnar overlay: lås scroll (hindrar “vit stretch”-effekt) */
@@ -30,6 +33,7 @@
         font-size: 1.2rem;
         z-index: 1000;
         background: #40B7D1;; 
+        padding-top: env(safe-area-inset-top);
       
         /* centrera motivet */
         background: url('kortknapp.png') center/contain no-repeat;
