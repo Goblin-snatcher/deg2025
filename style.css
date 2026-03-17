@@ -53,13 +53,12 @@
 /* --- Overlay (svart bakgrund) --- */
 #overlay {
   position: fixed;
-  top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    inset: 0;
   background: #000;
-  z-index: 9999;
+  z-index: 2000;
     display: none;
+
+    padding-top: env(safe-area-inset-top);
 }
 
 #overlay.show { display:grid; place-items:center; }
@@ -71,6 +70,7 @@
   align-items: center;
   gap: 12px;
   max-width: 92vw;
+    background: #000;
 }
  /* bra 
 /* --- Stängknapp --- */
